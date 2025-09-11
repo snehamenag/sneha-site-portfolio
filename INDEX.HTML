@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SNEHA</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <nav>
+      <h1 class="logo">MyPortfolio</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h2>Hi, I'm [SNEHA]</h2>
+    <p>Aspiring Web Developer</p>
+    <button onclick="scrollToSection('projects')">See My Work</button>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm [SNEHA], a passionate web developer who enjoys building simple and elegant web experiences. I'm currently learning full-stack development and enjoy working with HTML, CSS, JavaScript, and modern frameworks.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-list">
+      <div class="project-card">
+        <h3>Project One</h3>
+        <p>A simple HTML/CSS project.</p>
+      </div>
+      <div class="project-card">
+        <h3>Project Two</h3>
+        <p>A JavaScript interactive app.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="SNEHA" required />
+      <input type="email" placeholder="24BSCDA010.CAS@PPG.EDU.IN" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="formMessage"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 [sneha]. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
